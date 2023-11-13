@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="container">
+        <form method="get">
+        <div>
+            <h2 style="margin-top: 0%;"> Your details: </h2>
+            <div class="input">
+                <span>Name</span>
+                <label>
+                    <input type="text" id="inp" placeholder="First name and last name" maxlength="30">
+                </label>
+            </div>
+            <div class="input">
+                <span>Email</span>
+                <label>
+                    <input type="email" id="inp" placeholder="something@.com" maxlength="30">
+                </label>
+            </div>
+            <div class="input">
+                <span>Phone</span>
+                <label>
+                    <input type="text" id="inp" placeholder=" +380" maxlength="30" />
+                </label>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 style="margin-top: 0%;">Delivery adress: </h2>
+            <div class="input-adress">
+                <span>Adress</span>
+                <textarea name="comment" minlength="2" maxlength="100" id="inp-adress"></textarea>
+            </div>
+            <div class="input">
+                <span>Post code</span>
+                <label>
+                    <input type="text" id="inp" maxlength="4" style="margin-left: 33%;"/>
+                </label>
+            </div>
+            <div class="input">
+                <span>Country</span>
+                <label>
+                    <input type="text" id="inp" maxlength="10" />
+                </label>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2 style="margin-top: 0%;"> Delivery adress: </h2>
+            <div class="input">
+                <p>Card type</p>
+                <div>
+                    <input type="radio" name="test" id="rad">
+                    <span>VISA</span>
+                    <input type="radio" name="test" id="rad">
+                    <span>AmEx</span>
+                    <input type="radio" name="test" id="rad">
+                    <span>Mastercard</span>
+                </div>
+            </div>
+            <div class="input">
+                <span>Card number</span>
+                <label>
+                    <input type="text" id="inp" maxlength="12" style="margin-left: 26%;"/>
+                </label>
+            </div>
+            <div class="input">
+                <span>Security code</span>
+                <label>
+                    <input type="text" id="inp" maxlength="12"  style="margin-left: 25%;"/>
+                </label>
+            </div>
+            <div class="input">
+                <span>Name on card</span>
+                <label>
+                    <input type="text" id="inp" 
+                        maxlength="30" style="margin-left: 25%;">
+                </label>
+            </div>
+            <div class="it">
+                <input type="submit" value="BUY IT!" id="sub"/>
+            </div>
+        </div>
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>

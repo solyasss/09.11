@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 31, 193);
+    margin-top: 3%;
+    border-radius: 5px;
+    width: 40%;
+    padding: 2% 3% 3% 3%;
+}
+
+.input {
+    background-color: rgb(209, 115, 214);
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 4%;
+
+}
+
+#inp {
+    margin-left: 35%;
+    width: 45%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-adress {
+    background-color: rgb(214, 115, 206);
+    height: 6em;
+    margin-top: 1%;
+    border-radius: 5px;
+    padding: 3%;
+    display: flex;
+
+}
+
+#inp-adress {
+    margin-left: 35%;
+    width: 45%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.step {
+    margin-top: 4%;
+}
+
+#sub{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 50px;
+    color: white;
+}
+
+.it{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
